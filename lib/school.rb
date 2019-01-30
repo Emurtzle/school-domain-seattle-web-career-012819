@@ -23,6 +23,7 @@ class School
 
   def sort
     @roster.sort
+    binding.pry
     @roster.each do |k, v|
       binding.pry
       @roster[k].sort_by { |f| f.class == Array ? f.first : f }
