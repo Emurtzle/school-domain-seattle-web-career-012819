@@ -23,7 +23,7 @@ class School
 
   def sort
     @roster = roster.keys.sort
-    binding.pry
+    #binding.pry
     @roster.each do |k, v|
       @roster[k] = v.sort
         binding.pry
