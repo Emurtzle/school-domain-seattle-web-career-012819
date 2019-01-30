@@ -24,7 +24,7 @@ class School
   def sort
     @roster.each do |k, v|
       binding.pry
-      @roster[k].sort
+      @roster[k].sort_by { |f| f.class == Array ? f.first : f }
     end
   end
 
