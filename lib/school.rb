@@ -30,6 +30,7 @@ class School
         binding.pry
       #@roster[k].sort_by { |f| f.class == Array ? f.first : f }
     end
+    new_roster
   end
 
 end
