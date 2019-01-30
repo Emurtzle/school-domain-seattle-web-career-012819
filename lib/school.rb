@@ -22,5 +22,6 @@ class School
     @roster.each do |k, v|
       @roster[k].sort
     end
+  end
 
 end
